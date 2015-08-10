@@ -1,0 +1,15 @@
+{
+  "name": "mangle",
+  "version": "1.0.0",
+  "description": "A string mangler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mangle",
+    "string"
+  ],
+  "author": "Oskari Virtanen",
+  "license": "MIT"
+}
