@@ -1,3 +1,3 @@
-exports.mangle = function(str) {
-  return str.replace(/./g, "_");
+module.exports = function(str) {
+  return str.replace(/\w/g, "_");
 }
