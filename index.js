@@ -1,3 +1,3 @@
 module.exports = function(str) {
-  return str.replace(/\w/g, "_");
+  return str.replace(/\S/g, "_");
 }

@@ -10,4 +10,8 @@ describe("mangle", function() {
     expect(mangle("The quick brown fox jumps over the lazy dog"))
       .to.eql("___ _____ _____ ___ _____ ____ ___ ____ ___");
   });
+
+  it("can mangle an url", function() {
+    expect(mangle("https://www.example.org")).to.eql("_______________________");
+  });
 });
