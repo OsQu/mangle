@@ -12,7 +12,7 @@ Usage
 -----
 
     var mangle = require("mangle");
-    mangle("a string after mangle"); // => '_____________________'
+    mangle("a string after mangle"); // => "_ ______ _____ ______"
 
 Tests
 -----
