@@ -11,6 +11,9 @@
     "string"
   ],
   "author": "Oskari Virtanen <oskari.virtanen@gmail.com>",
+  "repository": {
+    "url": "https://github.com/OsQu/mangle"
+  },
   "license": "MIT",
   "devDependencies": {
     "expect.js": "^0.3.1",
